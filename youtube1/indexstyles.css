@@ -1,0 +1,109 @@
+body {
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+#navbar {
+    display: flex;
+    width: 100%;
+    border: 1px solid #E5E5E5;
+    
+    height: 65px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+#nav1 img {
+    width: 100%;
+    height: 100%;
+}
+
+#nav1 {
+    /* border: 1px solid red; */
+    width: 220px;
+    display: flex;
+    gap: 8%;
+}
+
+#nav1 div {
+    /* border: 1px solid blue; */
+    width: 80%;
+    /* padding: 7%; */
+    margin-top: 10%;
+}
+
+#nav3 {
+
+    /* border: 1px solid blue; */
+    margin-left: auto;
+    width: 150px;
+    display: flex;
+    gap: 22%;
+    padding: 0.8%;
+
+}
+
+#nav2 {
+    margin-left: auto;
+    /* border: 1px solid blue; */
+    width: 50%;
+    padding: 0.8%;
+}
+
+#nav2 img {
+    width: 55%;
+    height: 80%;
+    margin: auto;
+    border-radius: 8px;
+}
+
+#leftsidediv{
+    border: 1px solid #E5E5E5;
+    border-top: 0px solid white;
+    position: fixed;
+    height: 1000px;
+    width: 18%;
+    padding: 1.7%;
+    /* top: 65px; */
+}
+#main{
+    /* height: 300px; */
+    height: 100%;
+    /* border: 1px solid red; */
+    width: 82%;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(4,22%);
+    gap: 4%;
+    padding: 1.2%;
+    box-sizing: border-box;
+    
+}
+#box1{
+    width: 260px;
+    height: 200px;
+    /* border: 1px solid red; */
+    line-height: -4%;
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+
+#box1 img{
+    width: 100%;
+    height: 80%;
+
+}
+
+#box2{
+    /* border: 1px solid blue; */
+    height: 20%;
+    padding: 2%;
+}
+i{
+    cursor: pointer;
+}
+span{
+    cursor: pointer;
+}
